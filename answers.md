@@ -9,18 +9,20 @@ organize codes for single projects. Individuals use it to host small websites,or
 of your project, where a new version is created in the repository. The commit command differs from saving a file because git does not add changes to a commit automatically. You need
 to indicate which file and changes need to be saved before running the Git commit command.
 
-4. The Git Add command updates the index using the current content found in the working tree, to prepare the content staged for the next commit. It adds the current content 
-of existing paths as a whole.
+4. The Git Add command allows you to add all the files inside your project folder to the staging area. When using the Git Add command
+you would type (git add "the name of the file" OR ".")
 
 5. The Git Push command is most commonly used to publish and upload local changes to a central repository. After a local repository has been modified a push command is executed 
 to share the modifications with remote team members.
 
-6. The Git Clone command is used to create a copy of an existing repository into a new directory. It is also used to create remote-tracking branches for each branch in the cloned
-repository 
+6. The Git Clone command is used to create a copy of an existing repository into a new directory.It is also used to create remote-tracking branches for each branch in the cloned
+repository. I would use the git clone command when I'm finish making changes to my file and ready to push it to my local repository (Github) so that it is easier for me to add or 
+remove files,and to fix merge conflicts. Working on a local repository provides more flexibility to me.
 
 7. A fork is a complete copy of a repository, including all files, commits, and (optionally) branches. Forking a repository allows you to freely experiment with changes 
 without affecting the original project.
 
-8. A Branch is a way to keep developing and coding new features or modifications to the software and still not affecting the main part of the project. When creating a branch, 
-you define a source, usually the main folder and a target. Forking, on the other hand, is a cloning operation in Git that is executed on the entire repository level. 
-Forking creates a full copy of the original repository without affecting the main repository and the copy sits in your account whereas branching creates a branch to encapsulate your changes.
+8. A Branch is a way to keep developing and coding new features or modifications to the software and still not affecting the main part of the project.
+ When creating a branch,define a source, usually the main folder and a target. 
+Forking, on the other hand, is a cloning operation in Git that is executed on the entire repository level. Forking creates a full copy of the original repository without affecting the main repository and the copy 
+sits in your account whereas branching creates a branch to encapsulate your changes.
