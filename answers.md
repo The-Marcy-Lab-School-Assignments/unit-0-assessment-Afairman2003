@@ -16,13 +16,13 @@ you would type (git add "the name of the file" OR ".")
 to share the modifications with remote team members.
 
 6. The Git Clone command is used to create a copy of an existing repository into a new directory.It is also used to create remote-tracking branches for each branch in the cloned
-repository. I would use the git clone command when I'm finish making changes to my file and ready to push it to my local repository (Github) so that it is easier for me to add or 
+repository. I would use the git clone command when I'm finished making changes to my files and ready to push them to my remote repository (Github) so that it is easier for me to add or 
 remove files,and to fix merge conflicts. Working on a local repository provides more flexibility to me.
 
 7. A fork is a complete copy of a repository, including all files, commits, and (optionally) branches. Forking a repository allows you to freely experiment with changes 
 without affecting the original project.
 
-8. A Branch is a way to keep developing and coding new features or modifications to the software and still not affecting the main part of the project.
+8. A branch is a way to keep developing and coding new features or modifications to the software and not affect the main branch of the repository.
  When creating a branch,define a source, usually the main folder and a target. 
-Forking, on the other hand, is a cloning operation in Git that is executed on the entire repository level. Forking creates a full copy of the original repository without affecting the main repository and the copy 
-sits in your account whereas branching creates a branch to encapsulate your changes.
+Forking, on the other hand, is a cloning operation in Git that is executed on the entire repository level.Forking creates a full copy of the original 
+repository without affecting the main repository and the copy sits in your account. In comparison, branching creates a branch that is attached to the main repository to encapsulate your changes.
